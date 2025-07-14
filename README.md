@@ -1,21 +1,6 @@
 # Whale-Trail
 <!DOCTYPE html>
 <html lang="en">
-// You can add fun interactive features here!
-// For example, display a random meme message:
-
-const taglines = [
-    "To the moon, with memes!",
-    "Laugh all the way to the blockchain!",
-    "Where memes become millions.",
-    "HODL your memes!"
-];
-
-document.addEventListener('DOMContentLoaded', function() {
-    const taglineEl = document.querySelector('.tagline');
-    if (taglineEl) {
-        taglineEl.textContent = taglines[Math.floor(Math.random() * taglines.length)];
-    }
 });
 body {
     font-family: 'Comic Sans MS', 'Arial', sans-serif;
