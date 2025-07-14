@@ -1,1 +1,40 @@
 # Whale-Trail
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MemeCoin - The Funniest Token</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="MemeCoin Logo" class="logo">
+        <h1>MemeCoin</h1>
+        <p class="tagline">The Funniest Token on the Blockchain!</p>
+    </header>
+    <main>
+        <section class="about">
+            <h2>What is MemeCoin?</h2>
+            <p>MemeCoin is a community-driven meme cryptocurrency that brings laughter, fun, and rewards to its holders. Join the movement and take your memes to the moon!</p>
+        </section>
+        <section class="tokenomics">
+            <h2>Tokenomics</h2>
+            <ul>
+                <li>Supply: 1,000,000,000 MEME</li>
+                <li>80% community, 10% team, 10% liquidity</li>
+                <li>No taxes, no rug pulls, just memes!</li>
+            </ul>
+        </section>
+        <section class="social">
+            <h2>Join the Community</h2>
+            <a href="https://twitter.com/" target="_blank" class="social-link">Twitter</a>
+            <a href="https://discord.com/" target="_blank" class="social-link">Discord</a>
+            <a href="https://t.me/" target="_blank" class="social-link">Telegram</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 MemeCoin. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
