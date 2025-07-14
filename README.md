@@ -1,7 +1,92 @@
 # Whale-Trail
 <!DOCTYPE html>
 <html lang="en">
-<head>
+// You can add fun interactive features here!
+// For example, display a random meme message:
+
+const taglines = [
+    "To the moon, with memes!",
+    "Laugh all the way to the blockchain!",
+    "Where memes become millions.",
+    "HODL your memes!"
+];
+
+document.addEventListener('DOMContentLoaded', function() {
+    const taglineEl = document.querySelector('.tagline');
+    if (taglineEl) {
+        taglineEl.textContent = taglines[Math.floor(Math.random() * taglines.length)];
+    }
+});
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif;
+    background: #fffbe7;
+    margin: 0;
+    color: #2d2d2d;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #ffeb3b;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #ff5722;
+}
+
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #ff9800;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0.5rem 1rem 0.5rem 0;
+    padding: 0.5rem 1.2rem;
+    background: #03a9f4;
+    color: #fff;
+    border-radius: 24px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.social-link:hover {
+    background: #0288d1;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #ffd600;
+    font-size: 0.9rem;
+}
+    <head>
     <meta charset="UTF-8">
     <title>MemeCoin - The Funniest Token</title>
     <link rel="stylesheet" href="style.css">
